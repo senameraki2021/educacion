@@ -284,7 +284,13 @@ body {
     align-items: center;
     flex-direction: column;
     font-size: 2vw;
-    border-radius: 1px;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 0.5vw;
+    position: relative;
+    left: 50px;
+    background-color: khaki;
+    padding-left: 100px;
 }
 
 .documental {
@@ -320,9 +326,45 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2vw;
 }
 
-.podcast {}
+.opacidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    opacity: 0.8;
+    padding: 3vw;
+}
+
+.opa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FEF78F;
+    width: 100px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: relative;
+    padding: 1.5vw;
+}
+
+.eva {
+    padding: 1.5vw;
+    font-size: 1.6vw;
+}
+
+.soso {
+    font-size: 2.8vw;
+}
+
+.spot {
+    padding: 10v;
+}
 
 .podo {
     display: flex;
